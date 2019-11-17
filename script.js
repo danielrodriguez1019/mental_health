@@ -58,7 +58,7 @@ $("#submit").onclick = function(){
         $("#myAudio").load();
         $("#myAudio").play();
         $("#submit").style.display="none";
-        $("#form").innerHTML += "<iframe src='research.html'></iframe>";
+        $("#form").innerHTML += "<iframe src='research.html' width='100%' height='750px'></iframe>";
     }
 
 };
