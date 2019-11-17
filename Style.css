@@ -1,0 +1,22 @@
+
+
+body{
+    background: linear-gradient(268deg, #87ceeb, #ff824c);
+background-size: 400% 400%;
+
+animation: AnimationName 0s ease infinite;
+
+@keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+   font-family: 'Open Sans', sans-serif;
+   font-weight: lighter;
+
+}
+
+
+#form *{
+    display: block;
+}
